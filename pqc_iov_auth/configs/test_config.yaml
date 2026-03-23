@@ -1,0 +1,18 @@
+redis:
+  host: localhost
+  port: 6379
+  db: 1
+
+blockchain:
+  network: testnet
+  channel: mychannel
+  chaincode: identitychain
+  config_path: configs/test_config.yaml
+
+crypto:
+  xmss_height: 4
+  kem_alg: ML-KEM-512
+
+logging:
+  level: DEBUG
+  file: logs/test.log
